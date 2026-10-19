@@ -4,14 +4,14 @@ import random
 # Store the quiz questions
 questions = [
     {
-        "question": "What is the capital city of Kenya?",
+        "question": "Which african contry does not require a visa?",
         "choices": {
-            "A": "Mombasa",
-            "B": "Nairobi",
-            "C": "Kisumu",
-            "D": "Nakuru"
+            "A": "Nigeria",
+            "B": "Namibia",
+            "C": "South Africa",
+            "D": "Seychelles"
         },
-        "answer": "B"
+        "answer": "C"
     },
     {
         "question": "Which language is commonly used for Python development?",
@@ -24,34 +24,34 @@ questions = [
         "answer": "A"
     },
     {
-        "question": "What is 5 + 3?",
+        "question": "What is 5 * 3?",
         "choices": {
             "A": "6",
             "B": "7",
             "C": "8",
-            "D": "9"
-        },
-        "answer": "C"
-    },
-    {
-        "question": "Which keyword is used to define a function in Python?",
-        "choices": {
-            "A": "function",
-            "B": "define",
-            "C": "fun",
-            "D": "def"
+            "D": "15"
         },
         "answer": "D"
     },
     {
-        "question": "Which data type stores True or False?",
+        "question": "Which of the below is not amang the reserved keywords in Python?",
+        "choices": {
+            "A": "if",
+            "B": "define",
+            "C": "fun",
+            "D": "def"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which data type stores text characters?",
         "choices": {
             "A": "String",
             "B": "Boolean",
             "C": "List",
             "D": "Integer"
         },
-        "answer": "B"
+        "answer": "A"
     }
 ]
 
